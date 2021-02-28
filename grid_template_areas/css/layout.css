@@ -30,26 +30,27 @@ footer {
 
 .grid {
   height: 100vh;
-  display: grid;
-  grid-template-areas:
+  display: grid; 
   
   /* Set only the top row to 100px */
-
+  grid-template-rows: 100px;
   
   /* 
     Declare 3 flexible column tracks
      - The first track should take up two fractions of the available space
      - The second and third tracks should take up one fraction of the space
   */
-
   
   /* Apply a 10px gutter between rows and columns */
 
-
+grid-gap: 10px;
   /*  
     Place items on the grid using their grid area names
       - Use the image 'grid-template-areas.png' as a reference
   */
-  
-  
+  grid-template-areas:
+    "header header header header"
+    "main main about news"
+    "main main links ads"
+    "main main footer footer";
 }
