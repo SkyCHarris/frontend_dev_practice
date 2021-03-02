@@ -40,6 +40,7 @@ footer {
      - The first track should take up two fractions of the available space
      - The second and third tracks should take up one fraction of the space
   */
+grid-template-columns: 2fr 1fr 1fr;
   
   /* Apply a 10px gutter between rows and columns */
 
@@ -49,8 +50,8 @@ grid-gap: 10px;
       - Use the image 'grid-template-areas.png' as a reference
   */
   grid-template-areas:
-    "header header header header"
-    "main main about news"
-    "main main links ads"
-    "main main footer footer";
+    "header header header"
+    "main about news"
+    "main links ads"
+    "main footer footer";
 }
