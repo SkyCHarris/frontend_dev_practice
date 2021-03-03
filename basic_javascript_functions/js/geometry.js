@@ -5,15 +5,34 @@
 //    and return the area of that rectangle.
 //    The area of a rectangle is the width * height
 
+function rectangleArea (width, height) {
+    return (width * height);
+}
+
+console.log(rectangleArea(10, 5));
+
 // 3. Create a function that calculates the volume of a rectangular prism.
 //    The function should accept the width, height and length as arguments
 //    and return the volume of that rectangular prism.
 //    The volume of a rectangular prism is the width * height * length
 
+function rectangularPrismArea (width, height, length) {
+    return (width * height * length);
+}
+
+console.log(rectangularPrismArea(5, 20, 3));
+
 // 4. Create a function that calculates the area of a circle.
 //    The function should accept the radius of the circle as an argument
 //    and return the area of that circle.
 //    The area of a circle is the value of π * radius^2
+
+function areaCircle (radius) {
+    return (n * radius^2);
+}
+
+console.log(areaCircle(14));
+
 
 // 5. Create a function that calculates the volume of a sphere.
 //    The function should accept the radius of the sphere as an argument
