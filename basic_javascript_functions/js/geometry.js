@@ -39,6 +39,11 @@ console.log(areaCircle(35));
 //    and return the volume.
 //    The volume of a circle is: 4/3 *  π * radius^3
 
+function areaSphere (radius) {
+    return (4/3 * Math.PI * Math.pow(radius, 3));
+}
+
+console.log (areaSphere(12));
 
 // 6. Use console.log to test each function and output to the JavaScript console
 //    Here are the values to test and the expected results
