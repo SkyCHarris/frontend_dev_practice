@@ -27,17 +27,18 @@ console.log(rectangularPrismArea(5, 20, 3));
 //    and return the area of that circle.
 //    The area of a circle is the value of π * radius^2
 
+
 function areaCircle (radius) {
-    return (n * radius^2);
+    return (Math.PI * Math.pow(radius, 2));
 }
 
-console.log(areaCircle(14));
-
+console.log(areaCircle(35));
 
 // 5. Create a function that calculates the volume of a sphere.
 //    The function should accept the radius of the sphere as an argument
 //    and return the volume.
 //    The volume of a circle is: 4/3 *  π * radius^3
+
 
 // 6. Use console.log to test each function and output to the JavaScript console
 //    Here are the values to test and the expected results
