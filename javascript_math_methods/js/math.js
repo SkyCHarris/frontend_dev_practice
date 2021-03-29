@@ -2,11 +2,21 @@
 
 // 2. Add an alert to announce the program with a message like "Let's do some math!"
 
+alert("Let's do some math!");
+
 // 3. Create a variable and use the prompt() method to collect a number from a visitor
+
+let num1;
+num1 = prompt("Please enter a number.");
 
 // 4. Convert that value from a string to a floating point number
 
+parseFloat(num);
+
 // 5. Repeat steps 3 and 4 to create a second variable and collect a second number
+
+let num2;
+num2 = prompt("Please enter another number.");
 
 // 6. Create a new variable -- message -- which you'll use to build
 //    a complete message to print to the document
