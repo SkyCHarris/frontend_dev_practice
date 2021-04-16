@@ -41,12 +41,17 @@ alert(message);
 
 // 8. Add a linebreak tag -- <br> -- to the message variable
 
+
 // 9. Continue to add to the message variable to include strings
 //    demonstrating multiplication, division and subtraction
 //    For example:
 //    "3 * 4 = 12"
 //    "3 / 4 = 0.75"
 //    "3 - 4 = -1"
+
+message += `${num1} * ${num2} = ${+num1 * +num2}`;
+message += `${num1} / ${num2} = ${+num1 / +num2}`;
+message += `${num1} - ${num2} = ${+num1 - +num2}`;
 
 // 10. Use the document.write() method to print the message variable 
 //     to the web page. Open the finished.png file in this workspace
