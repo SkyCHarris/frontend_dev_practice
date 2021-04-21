@@ -28,14 +28,14 @@ parseFloat(num2);
 //    and make sure you actually perform the math on the values by 
 //    using the + symbol to add their values together
 
-var message;
+let message;
 message = `<h1>Math with the numbers ${num1} and ${num2}</h1>`; // Need + symbol? //
 
 // 7. Add another string to the message variable. 
 //    The string should look something like this after concatenation:
 //    "3 + 4 = 7"
 
-message += `${num1} + ${num2} = ${+num1 + +num2}`;
+message += `<br> ${num1} + ${num2} = ${+num1 + +num2}`;
 alert(message);
 
 
@@ -49,16 +49,16 @@ alert(message);
 //    "3 / 4 = 0.75"
 //    "3 - 4 = -1"
 
-message += `${num1} * ${num2} = ${+num1 * +num2}`;
-message += `${num1} / ${num2} = ${+num1 / +num2}`;
-message += `${num1} - ${num2} = ${+num1 - +num2}`;
+message += `<br> ${num1} * ${num2} = ${+num1 * +num2}`;
+message += `<br> ${num1} / ${num2} = ${+num1 / +num2}`;
+message += `<br> ${num1} - ${num2} = ${+num1 - +num2}`;
 
 // 10. Use the document.write() method to print the message variable 
 //     to the web page. Open the finished.png file in this workspace
 //     to see what the completed output should look like
 
 
-
+document.write(message);
 
 
 
